@@ -17,4 +17,4 @@ aba←→ac -> abac
 
 def split_to_syllables(word: str) -> list[str]:
     #todo: your solution here
-    return ["aa", "ab", "bb"]
+    return ["ab"]
