@@ -21,5 +21,19 @@ b = [1, 5, 1]  (teraz na ostatniej pozycji odjęliśmy 5, czyli a[1])
 
 
 def equalize_parity(a: list[int]) -> bool:
-    # todo: your solution here
-    return True
+
+    output = []
+    for i in a:
+        if i % 2 == 0:
+            output.append(i)
+
+    if len(output) == len(a):
+        return True
+
+    if len(output) == 0:
+        return True
+
+    if min(a) % 2 != 0:
+        return True
+    else:
+        return False
