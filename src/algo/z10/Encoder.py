@@ -8,12 +8,13 @@ def encoder(s: str) -> str:
     out = ""
 
     for i in word:
-        wyjscie.append(i + "".join(random.sample(string.ascii_lowercase, 3)) + i)
+        exclude = [letter for letter in string.ascii_lowercase if letter != i]
+        wyjscie.append(i + "".join(random.sample(exclude, 3)) + i)
 
     for each in range(len(wyjscie)):
         out += wyjscie[each]
 
     print(out)
+    return out
 
-
-encoder('kod')
+encoder('to jest zakodowana wiadomość')
