@@ -21,4 +21,4 @@ def decoder(s: str) -> str:
     return wyjscie
 
 
-decoder("tphftosxjo oia jbykjerlvesmnzstaqyt phi zwpezaqjsakpwykoxtqodnxldoicgowumswahzdandxjnanlsa amn wxpcwivkfiaogsadrnxdojpgomthlmotrlośilbśćlsućDD")
+decoder("ilaidwzpvyufbngdzncgxeozixgnyliecemwlaobjvtmyijbqzehy vpkleuqi geqrfylhvgreusfraxwfegbskdtaćć?ahzyvejs?")
